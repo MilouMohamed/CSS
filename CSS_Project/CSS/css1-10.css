@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+      background-color: rgb(156, 165, 165);  
+   /* padding: 20px; */     
+    /* background-image: url("../IMG/repet.PNG");    */
+  /* background-repeat: no-repeat; */
+} 
+p {
+ padding-top:10px ;
+}
+ 
+.ima-div {   
+     color: rgb(255, 68, 0); 
+     background-color: aqua;
+     /* background-image: url("../IMG/repet.PNG");  */
+     /* background-repeat: no-repeat; */
+     /* background-attachment: fixed; */
+     /* background-position: top center ; */ 
+     width: 400px;
+     margin:   50px auto;
+     padding:   5px;
+     border: 10px solid  red ;  
+     outline: 20px solid yellow; 
+
+} 
