@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ckekbox01.css">
+
+    <title>Milou Med CekBox</title>
+</head>
+
+<body>
+    <h2>Mon chekbox de exelib</h2>
+    <hr />
+    <div class="my-chekbox01">
+        <label class="ck_label">
+            <input type="checkbox" id="ch1" name="ch1" class="btn_chb"/>
+            <span id="snon">NON</span>
+            <span id="soui">OUI</span>
+            <span id="round"></span>
+          </label> 
+
+    </div>
+    <p id="parag">Blaaa blaaaa </p>
+
+    <script>
+
+        var chek01 = document.getElementById("ch1"),
+            mylabel =document.getElementById("parag");
+
+        function funcChek() {
+
+            if (chek01.checked) {
+                console.log('Oui cheked');
+                mylabel.textContent = "Oui <h1>1 </h1> ";
+            }
+            else {
+                console.log('Non pas Cheked');
+                mylabel.innerHTML = "Non <h1>1 </h1> ";
+            }
+        }
+        chek01.addEventListener('click', funcChek);
+
+
+
+    </script>
+
+</body>
+
+</html>
