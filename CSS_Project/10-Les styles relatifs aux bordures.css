@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+:root {
+    --color-bg-nav: white;
+    --color-cellel-nav: white;
+    --color-border-nav: rgb(255, 0, 0);
+    --color-txt-nav: rgb(0, 0, 0);
+    --color-txt-hover-nav: rgb(255, 0, 0);
+
+}
+
+body {
+    background-color: rgb(159, 193, 288);
+    padding: 20px;
+    margin-top: 50px;
+}
+ 
+.article {
+    line-height: 1.5;
+    border: 2px solid  rgba(0,0,0,0.3) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px 30px;  
+}
+
+.titre-article {
+    border-bottom: 2px dashed  rgba(0,0,0,3); 
+}
+
+.detail-article {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.detail-article > p { 
+    text-align: justify;
+    margin-bottom: 20px; 
+}
+
+.detail-article > a {  
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 20px;  
+    border-radius: 200px/30px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Milou Med
+mohamed2017tsdi@gmail.com
+*/ 
