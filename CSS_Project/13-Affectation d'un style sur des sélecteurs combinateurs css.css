@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+:root {
+    --color-bg-nav: white;
+    --color-cellel-nav: white;
+    --color-border-nav: rgb(255, 0, 0);
+    --color-txt-nav: rgb(0, 0, 0);
+    --color-txt-hover-nav: rgb(255, 0, 0);
+
+}
+
+body {
+    background-color: rgb(159, 193, 288);
+    padding: 10px;
+    margin-top: 50px;
+}
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Milou Med
+mohamed2017tsdi@gmail.com
+*/ 
