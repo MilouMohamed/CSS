@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+:root {
+    --color-bg-nav: white;
+    --color-cellel-nav: white;
+    --color-border-nav: rgb(255, 0, 0);
+    --color-txt-nav: rgb(0, 0, 0);
+    --color-txt-hover-nav: rgb(255, 0, 0);
+
+}
+
+body {
+    background-color: rgb(159, 193, 288);
+    padding: 10px;
+    margin-top: 50px;
+}
+   
+h1 {
+    font-family: helvetica ,Arial,sans-serif;
+    font-size:  2em;
+    padding: 10px;
+}
+
+p { 
+    padding: 20px;
+    margin: 10px 10px 10px 30px;
+    line-height: 1.6; 
+    text-align: left;
+    width: 690px;
+}
+blockquote {
+    border-left: 6px solid magenta; 
+    font-size: 1.5em;
+    background-color: #5f90eeeb; 
+    width: 650px; 
+    margin-left: 80px; 
+    padding: 10px;
+    
+    /* overflow: hidden;
+    position des em Mthd 3  */
+}
+
+blockquote > p {  
+    color: green;
+    font-style:italic;
+    line-height: 1.4; 
+    margin: 0px; 
+    padding-bottom: 5px;
+    width: 650px; 
+}
+
+blockquote > em { 
+    /*display:flex;
+    justify-content: end;
+    /* oui */
+    display: block;
+    text-align: right; 
+ /*   float: right;   M3*/
+    
+    color: blue;
+    padding: 0 10px 2px 0;
+    
+}
+
+
+
+a { 
+    padding: 20px;
+    margin: 10px 10px 10px 30px;
+    line-height: 1.6; 
+    text-align: left; 
+    color: magenta; 
+    position: absolute; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Milou Med
+mohamed2017tsdi@gmail.com
+*/ 
